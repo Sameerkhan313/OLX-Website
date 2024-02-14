@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+#border :hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#border2 :hover{
+    cursor: pointer;
+    color: #6f9191;
+}
+
+/* nav bar Section Start */
+.navbar{
+    width: 100%;
+    height: 120px;
+    position: ;
+}
+
+.navbar1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50PX;
+    /* background-color: black; */
+}
+
+.navbar2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* background-color: blue; */
+}
+.logo1 img{
+    height: 50px;
+}
+.logo2 img{
+    height: 70px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.search-select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    display: flex;
+}
+.search-input{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{   
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items:  center; 
+    font-size:  1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+    height: 50px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.search-select2{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.search-input2{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.login{
+    font-size: 20px;
+}
+.login :hover{
+    text-decoration: none;
+}
+button{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50PX;
+    border: 5PX solid;
+    border-color: yellow blue greenyellow ;
+    font-size: 20PX;
+
+}
+.button :hover{
+    cursor: pointer;
+}
+/* nav bar Section End */
+
+/* Category Portion Start */
+.categories{
+    width: 100%;
+    height: 50px;
+    /* color: white; */
+    background-color: rgb(251, 249, 249);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.otherscategories{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+/* Category Portion End */
+
+.section1{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/pic1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+}
+
+.maincategories{
+    width: 100%;
+    height: 450px;
+    gap: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+}
+.text{
+    width: 100px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 1000;
+}
+.mobilesimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/mobiles.png);
+    background-size: cover;
+}
+
+.vehiclesimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/vehicles.png);
+    background-size: cover;
+}
+.propertysaleimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/property-for-sale.png);
+    background-size: cover;
+}
+.propertyrentimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/property-for-rent.png);
+    background-size: cover;
+}
+.electronicsimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/electronics-home-appliances.png);
+    background-size: cover;
+}
+.bikesimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/bikes.png);
+    background-size: cover;
+}
+.businessimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/business-industrial-agriculture.png);
+    background-size: cover;
+}
+
+.serviceimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/services.png);
+    background-size: cover;
+}
+.jobsimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/jobs.png);
+    background-size: cover;
+}
+.animalsimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/animals.png);
+    background-size: cover;
+}
+.furnitureimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/furniture-home-decor.png);
+    background-size: cover;
+}
+.fashionimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/fashion-beauty.png);
+    background-size: cover;
+}
+.booksimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/books.png);
+    background-size: cover;
+}
+
+.kidsimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/kids.png);
+    background-size: cover;
+}
+
+/* MObile Phones Section Start */
+
+.Mobilephonescard{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 10px;
+}
+.mobilecard1{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.mobilecard1img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/mobile\ phones1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mobilecard2{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.mobilecard2img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/mobile\ phones2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mobilecard3{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.mobilecard3img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/mobile\ phones3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mobilecard4{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.mobilecard4img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/mobile\ phones4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+/* MObile Phones Section End */
+
+/* Cars Section Start */
+
+.carscard{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 10px;
+}
+.carscard1{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.carscard1img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/car\ image1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carscard2{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.carscard2img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/car\ image2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carscard3{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.carscard3img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/car\ image3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carscard4{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.carscard4img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/car\ image4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+/* Cars Section End */
+
+/* Bikes Section Start */
+
+
+.bikescard{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 10px;
+}
+.bikescard1{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.bikescard1img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/bikes\ image4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bikescard2{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.bikescard2img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/bikes\ image3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bikescard3{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.bikescard3img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/bikes\ image2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bikescard4{
+    width: 25%;
+    height: 350px;
+    border: 2px solid lightgray;
+    border-radius: 3%;
+}
+.bikescard4img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/bikes\ image1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Bikes Section End */
+
+/* FOoter Section Start */
+
+.footer1{
+    width: 100%;
+    height: 200px;
+    /* background-color: #6f9191; */
+    display: flex;
+}
+.footer1img{
+    width: 40%;
+    height: 200px;
+    /* background-color: aqua; */
+    background-image: url(./Assets/olxMobileApp.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer1text{
+    width: 35%;
+    height: 200px;
+    /* display: flex;
+    display: block; */
+    text-align: left;
+    /* background-color: aqua; */
+}
+
+.app{   
+    width: 35%;
+    height: 200px;
+    background-color: rgba(0,47,52,.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.applink{
+    width: 50%;
+    height: 2000px;
+    /* background-color: aqua; */
+    background-image: url(./Assets/store.webp);
+    background-size: cover;
+}
+
+.footer2{
+    width: 100%;
+    height: 200px;
+    background-color: #ebeeef;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footeroption{
+    list-style-type: none;
+}
+.socialmedialinks{
+    width: 100%;
+    height: 40px;
+}
+.storelinks{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+/* Footer Section End */
